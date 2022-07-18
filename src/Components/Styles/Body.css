@@ -1,0 +1,10 @@
+.heading-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 85px
+}
+
+.body-p {
+    /* align-items: flex-end; */
+}
