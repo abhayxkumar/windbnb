@@ -7,6 +7,13 @@ const SearchModal = ({ handleClose, show, children }) => {
       <div className={showHideClassName}>
         <section className="modal-main">
           {children}
+
+          <input placeholder='Add location' />
+          <input placeholder='Add guests' />
+          <button><span className='material-icons'>search</span> Search</button>
+          
+          
+          
           <button type="button" onClick={handleClose}>
             Close
           </button>
